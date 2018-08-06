@@ -1,0 +1,22 @@
+{
+    "cSpell.language": "ru,en",
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "go",
+        "handlebars",
+        "html",
+        "jade",
+        "javascriptreact",
+        "latex",
+        "less",
+        "markdown",
+        "plaintext",
+        "pub",
+        "python",
+        "restructuredtext",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yml"
+    ]
+}
