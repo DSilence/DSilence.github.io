@@ -40,6 +40,7 @@ class Bio extends React.Component {
           <SocialIcon url="https://www.instagram.com/dzmitry.safarau"/>
           <SocialIcon url="https://www.flickr.com/photos/100656442@N05"/>
           <SocialIcon url="https://www.facebook.com/dsilencea"/>
+          <SocialIcon url="https://www.linkedin.com/in/dzmitry-safarau-67378a72" />
         </div>
       </div>
     )
