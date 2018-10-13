@@ -7,6 +7,7 @@ import Bio from '../components/Bio'
 import Layout from '../components/layout'
 import { rhythm, scale } from '../utils/typography'
 import { DiscussionEmbed } from "disqus-react";
+import { graphql } from 'gatsby'
 
 class BlogPostTemplate extends React.Component {
   render() {

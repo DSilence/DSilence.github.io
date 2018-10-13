@@ -8,7 +8,7 @@ slug: spatial-%d1%82%d0%b8%d0%bf%d1%8b-%d0%b8-efcore
 title: Spatial типы и EFCore
 wordpress_id: 248
 categories:
-- Технический хаос
+- Tech
 tags:
 - .net
 - .net core

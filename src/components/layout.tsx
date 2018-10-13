@@ -1,14 +1,14 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import { Link } from "gatsby";
+import React from "react";
 
-import { rhythm, scale } from '../utils/typography'
 import "prismjs/themes/prism.css";
+import { rhythm, scale } from "../utils/typography";
 
-class Template extends React.Component {
-  render() {
-    const { location, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
-    let header
+class Template extends React.Component<any, any> {
+  public render() {
+    const { location, children } = this.props;
+    const rootPath = `${__PATH_PREFIX__}/`;
+    let header;
 
     if (location.pathname === rootPath) {
       header = (
@@ -21,43 +21,43 @@ class Template extends React.Component {
         >
           <Link
             style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
+              boxShadow: "none",
+              color: "inherit",
+              textDecoration: "none",
             }}
-            to={'/'}
+            to={"/"}
           >
             Sleepy Maniac Blog
           </Link>
         </h1>
-      )
+      );
     } else {
       header = (
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
-            marginTop: 0,
+            fontFamily: "Montserrat, sans-serif",
             marginBottom: rhythm(-1),
+            marginTop: 0,
           }}
         >
           <Link
             style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
+              boxShadow: "none",
+              color: "inherit",
+              textDecoration: "none",
             }}
-            to={'/'}
+            to={"/"}
           >
             Sleepy Maniac Blog
           </Link>
         </h3>
-      )
+      );
     }
     return (
       <div
         style={{
-          marginLeft: 'auto',
-          marginRight: 'auto',
+          marginLeft: "auto",
+          marginRight: "auto",
           maxWidth: rhythm(24),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
@@ -65,8 +65,8 @@ class Template extends React.Component {
         {header}
         {children}
       </div>
-    )
+    );
   }
 }
 
-export default Template
+export default Template;
