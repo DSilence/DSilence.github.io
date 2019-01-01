@@ -28,8 +28,8 @@ class Bio extends React.Component {
               width: rhythm(2),
             }}/>
           <p>
-            Блог за авторством <strong>Дмитрия Сафарова</strong>. Пишу код, развлекаюсь, путешествую, фотографирую.{" "}
-            Старую версию блога можно найти <a href="https://sleepymaniac.wordpress.com">тут</a>.
+            Blog by <strong>Dzmitry Safarau</strong>. Writing code, having fun, travelling, taking pictures.{" "}
+            Old version of the blog can be found <a href="https://sleepymaniac.wordpress.com">here</a>.
           </p>
         </div>
         <div style={{
